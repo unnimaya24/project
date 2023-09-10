@@ -1,0 +1,64 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin:0;
+}
+.nav-bar{
+    position: absolute;
+    height: 5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color:blue;
+}
+.nav-item{
+    height: 100%;
+    padding-inline: 0.8rem;
+    line-height: 100%;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+.nav item a{
+    color:white;
+    text-decoration: nones;
+}
+.bg{
+    position: fixed;
+    height:100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.bg img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.scroll{
+    position:absolute;
+    height:100%;
+    width: 100%;
+    top:0;
+    padding-top: 20%;
+    z-index: -1;
+}
+.v-scroll{
+    height: 25rem;
+    width: 100%;
+    padding:1rem;
+}
+.collections{
+    position:relative;
+    display: inline-block;
+    width: 14%;
+    height: 100%;
+    padding-inline: 0.25rem;
+    transition-delay:0.5s;
+}
+.collections img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.collections:hover{
+    transform: scale(1.4);
+}
